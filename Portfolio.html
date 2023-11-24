@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+    <link rel="stylesheet"href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js"crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src=""alt=""class="">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Java Programmer</p>
+                <h1> Hi, I'm<span> Yaswanth</span><br>from India</h1>
+            </div>
+        </div>
+    </div>
+<!--------------about------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                <img src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">    
+                </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    Welcome to my portfolio, where creativity knows no bounds, innovation thrives, and excellence is the cornerstone of my work. I am Yaswanth , a passionate Programmer, eager to share my journey of growth and the fruits of my labor.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link"onclick="opentab('skills')"> Skills </p>
+                    <p class="tab-links"onclick="opentab('Experience')"> Experience </p>
+                    <p class="tab-links"onclick="opentab('Education')"> Education </p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>Java</span><br>Programming using java</li>
+                        <li><span>MySQl</span><br>Database management using MySQl</li>
+                        <li><span>Basics of Python</span><br>Basics of Python</li>
+                        <li><span>Machine Learning</span><br>Building a machine Learning model using Python</li>
+                        <li><span> Artificial Intelligence</span></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>Cardio Vascular Disease Prediction Using Machine Learning</span>
+                        <br><a href="https://github.com/BhanothYaswanthSai/Cardio_Disese_ML_Prediction" target="blank">https://github.com/BhanothYaswanthSai/Cardio_Disese_ML_Prediction</a>
+                        </li>
+                        <li><span>Spotify Song Genre Segmentation Using Machine Learning
+                        </span><br><a href="https://github.com/BhanothYaswanthSai/spotify-song-genre-segementation" target="blank">https://github.com/BhanothYaswanthSai/spotify-song-genre-segementation</a></li>
+                        <li><span>Responsive Portfolio using HTML CSS and Javascript
+                        </span></li>
+                    </ul>
+                </div>
+                <div class="tab-contents"id="Education">
+                    <ul>
+                        <li><span>Sree Vidyanikethan Engineering College (SVEC)</span><br>Tirupati, Andhra Pradesh,India.<br>Bachelor of Technology - Computer Science And Engineering (CSE)<br>CGPA - 8.88/ 10 (Upto 5th Semester)
+                        </li>
+                        <li><span>Sri Chaitanya Junior Kalasala</span><br>Hyderbad,Telangana,India.<br>Intermediate - Maths, Physics, Chemistry
+                            <br>Percentage - 86 %
+                        </li>
+                        <li><span>Sri Chaitanya School</span><br>Anantapur, Andhra Pradesh,India<br>SSC - Board of Secondary Education Of Andhra Pradesh
+                            <br>CGPA - 10 / 10
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-----services -------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div> 
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>
+                        <br>Creative web designer skilled in user-centric design, responsive layouts, and SEO integration. Creates visually appealing websites for enhanced user experiences and business success.
+                    </p>
+                    <a href="#">learn more</a>
+                </div>
+                <div> 
+                    <i class="fa-solid fa-database"></i>
+                    <h2>MySQL</h2>
+                    <p>
+                        <br>MySQL Database Management: Expertise in optimizing, securing, and scaling MySQL databases. Ensuring high performance, data integrity, and seamless integration for efficient data-driven applications.
+                    </p>
+                    <a href="#">learn more</a>
+                </div>
+                <div> 
+                    <i class="fa-solid fa-circle-nodes"></i>
+                    <h2>Machine Learning</h2>
+                    <p>
+                        <br>Custom Machine Learning Solutions: Delivering predictive analytics, NLP, computer vision, and recommender systems. Empowering data-driven decisions and automation for enhanced business outcomes.
+                    </p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------portfolio------>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                   <img src="https://png.pngtree.com/thumb_back/fh260/background/20210910/pngtree-mobile-ui-ux-development-purple-design-concept-image_860922.jpg">
+                   <div class="layer">
+                    <h3>My PortFolio Website</h3>
+                    <p>
+                        This website gives a clear understanding regarding my skills, work and services
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                   </div>
+                </div>
+                <div class="work">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC877mis2gXrStqE7rTSljOB4_vhWuEZyZUVCxyShLwxb806DHcsPBNRpMshzEg6GoSv8&usqp=CAU">
+                    <div class="layer">
+                        <h3>MySQL project</h3>
+                        <p>
+                            Developed a scalable web application with MySQL as the backend database. Enabled seamless data storage, retrieval, and management, ensuring efficient user interactions and data integrity.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                       </div>
+                </div>
+                <div class="work">
+                    <img src="https://media.istockphoto.com/id/1206796363/photo/ai-machine-learning-hands-of-robot-and-human-touching-on-big-data-network-connection.jpg?s=612x612&w=0&k=20&c=xIX5Bz7h50B83cCZG_gXkyZSOu-mG93DtOcNK7RNEAo=">
+                    <div class="layer">
+                        <h3>Spotify clone and Cardio vascular disease prediction</h3>
+                        <p>
+                            This Machine learning model predicts the taste of a user and another Machine Learning model predicts the cardio vascular diseases based on their daily routines.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                       </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+<!--------contact--------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> bhanothyaswanth2801@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 9110723142</p> 
+                <div class="social-icons">
+                <a href="https://www.instagram.com/be_ys_/" target="blank"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://twitter.com/Yaswanth2801"target="blank"><i class="fa-brands fa-twitter-square"></i></a>
+                <a href="www.linkedin.com/in/yaswanth-sai28"target="blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div> 
+                <a href="Bhanoth Yaswanth Sai.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right"> 
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email"required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>  
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Yaswanth Sai</p>
+    </div>
+</div>
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname)
+    {
+        for(tablink of tablinks)
+        {
+            tablink.classList.remove("active-link");
+        }
+        for(tablink of tabcontents)
+        {
+            tablink.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwAtEfYp9vIDtJpnOptIp_dgE69KZdeQyicjbrPJAsGXKVFKfo8ZjQhFBh35xuKFYmn2A/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+              msg.innerHTML="Message sent successfully"
+              setTimeout(function(){
+                msg.innerHTML= " "
+              },5000)
+              form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
